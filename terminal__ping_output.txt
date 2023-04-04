@@ -1,0 +1,114 @@
+Last login: Mon Apr  3 22:17:48 on ttys000
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.amazon.com      
+PING d3ag4hukkh62yn.cloudfront.net (18.65.233.187): 56 data bytes
+64 bytes from 18.65.233.187: icmp_seq=0 ttl=245 time=12.248 ms
+64 bytes from 18.65.233.187: icmp_seq=1 ttl=245 time=14.426 ms
+64 bytes from 18.65.233.187: icmp_seq=2 ttl=245 time=14.155 ms
+64 bytes from 18.65.233.187: icmp_seq=3 ttl=245 time=20.249 ms
+64 bytes from 18.65.233.187: icmp_seq=4 ttl=245 time=18.928 ms
+64 bytes from 18.65.233.187: icmp_seq=5 ttl=245 time=18.918 ms
+^C
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 12.248/16.487/20.249/2.991 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.amazon.com
+PING d3ag4hukkh62yn.cloudfront.net (18.172.169.208): 56 data bytes
+64 bytes from 18.172.169.208: icmp_seq=0 ttl=247 time=5.477 ms
+64 bytes from 18.172.169.208: icmp_seq=1 ttl=247 time=5.831 ms
+64 bytes from 18.172.169.208: icmp_seq=2 ttl=247 time=7.001 ms
+64 bytes from 18.172.169.208: icmp_seq=3 ttl=247 time=16.520 ms
+64 bytes from 18.172.169.208: icmp_seq=4 ttl=247 time=12.981 ms
+64 bytes from 18.172.169.208: icmp_seq=5 ttl=247 time=16.402 ms
+^C
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.477/10.702/16.520/4.765 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.amazon.com
+PING d3ag4hukkh62yn.cloudfront.net (18.172.169.208): 56 data bytes
+64 bytes from 18.172.169.208: icmp_seq=0 ttl=247 time=10.500 ms
+64 bytes from 18.172.169.208: icmp_seq=1 ttl=247 time=22.926 ms
+64 bytes from 18.172.169.208: icmp_seq=2 ttl=247 time=13.629 ms
+64 bytes from 18.172.169.208: icmp_seq=3 ttl=247 time=10.432 ms
+64 bytes from 18.172.169.208: icmp_seq=4 ttl=247 time=15.265 ms
+64 bytes from 18.172.169.208: icmp_seq=5 ttl=247 time=15.633 ms
+64 bytes from 18.172.169.208: icmp_seq=6 ttl=247 time=14.067 ms
+^C
+--- d3ag4hukkh62yn.cloudfront.net ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 10.432/14.636/22.926/3.896 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.google.com
+PING www.google.com (172.217.14.228): 56 data bytes
+64 bytes from 172.217.14.228: icmp_seq=0 ttl=56 time=5.552 ms
+64 bytes from 172.217.14.228: icmp_seq=1 ttl=56 time=15.265 ms
+64 bytes from 172.217.14.228: icmp_seq=2 ttl=56 time=17.712 ms
+64 bytes from 172.217.14.228: icmp_seq=3 ttl=56 time=14.380 ms
+64 bytes from 172.217.14.228: icmp_seq=4 ttl=56 time=14.510 ms
+64 bytes from 172.217.14.228: icmp_seq=5 ttl=56 time=11.563 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.552/13.164/17.712/3.849 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.google.com
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.google.com
+PING www.google.com (172.217.14.228): 56 data bytes
+64 bytes from 172.217.14.228: icmp_seq=0 ttl=56 time=15.794 ms
+64 bytes from 172.217.14.228: icmp_seq=1 ttl=56 time=13.580 ms
+64 bytes from 172.217.14.228: icmp_seq=2 ttl=56 time=15.802 ms
+64 bytes from 172.217.14.228: icmp_seq=3 ttl=56 time=12.218 ms
+64 bytes from 172.217.14.228: icmp_seq=4 ttl=56 time=8.206 ms
+64 bytes from 172.217.14.228: icmp_seq=5 ttl=56 time=8.703 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 8.206/12.384/15.802/3.049 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.google.com
+PING www.google.com (172.217.14.228): 56 data bytes
+64 bytes from 172.217.14.228: icmp_seq=0 ttl=56 time=13.986 ms
+64 bytes from 172.217.14.228: icmp_seq=1 ttl=56 time=13.996 ms
+64 bytes from 172.217.14.228: icmp_seq=2 ttl=56 time=16.258 ms
+64 bytes from 172.217.14.228: icmp_seq=3 ttl=56 time=16.286 ms
+64 bytes from 172.217.14.228: icmp_seq=4 ttl=56 time=16.760 ms
+64 bytes from 172.217.14.228: icmp_seq=5 ttl=56 time=12.977 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 12.977/15.044/16.760/1.441 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.36.249.251): 56 data bytes
+64 bytes from 23.36.249.251: icmp_seq=0 ttl=54 time=8.549 ms
+64 bytes from 23.36.249.251: icmp_seq=1 ttl=54 time=13.734 ms
+64 bytes from 23.36.249.251: icmp_seq=2 ttl=54 time=12.805 ms
+64 bytes from 23.36.249.251: icmp_seq=3 ttl=54 time=15.369 ms
+64 bytes from 23.36.249.251: icmp_seq=4 ttl=54 time=13.396 ms
+64 bytes from 23.36.249.251: icmp_seq=5 ttl=54 time=11.947 ms
+ç64 bytes from 23.36.249.251: icmp_seq=6 ttl=54 time=12.499 ms
+64 bytes from 23.36.249.251: icmp_seq=7 ttl=54 time=11.552 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 8.549/12.481/15.369/1.853 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.36.249.251): 56 data bytes
+64 bytes from 23.36.249.251: icmp_seq=0 ttl=54 time=5.256 ms
+64 bytes from 23.36.249.251: icmp_seq=1 ttl=54 time=14.321 ms
+64 bytes from 23.36.249.251: icmp_seq=2 ttl=54 time=15.720 ms
+64 bytes from 23.36.249.251: icmp_seq=3 ttl=54 time=15.103 ms
+64 bytes from 23.36.249.251: icmp_seq=4 ttl=54 time=15.532 ms
+64 bytes from 23.36.249.251: icmp_seq=5 ttl=54 time=10.958 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.256/12.815/15.720/3.740 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.36.249.251): 56 data bytes
+64 bytes from 23.36.249.251: icmp_seq=0 ttl=54 time=16.235 ms
+64 bytes from 23.36.249.251: icmp_seq=1 ttl=54 time=15.605 ms
+64 bytes from 23.36.249.251: icmp_seq=2 ttl=54 time=15.630 ms
+64 bytes from 23.36.249.251: icmp_seq=3 ttl=54 time=6.285 ms
+64 bytes from 23.36.249.251: icmp_seq=4 ttl=54 time=14.706 ms
+64 bytes from 23.36.249.251: icmp_seq=5 ttl=54 time=15.729 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.285/14.032/16.235/3.494 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % 
