@@ -49,6 +49,7 @@ target server IP address: (23.45.229.117)
 **How many hops were needed to reach the target?**
 
 Amazon:
+request timed out, max 64 hops reached
 
 Google:
 10 hops
@@ -63,25 +64,29 @@ Comcast is my ISP. seattle.wa.seattle.comcast.net is identified in most hops.
 **Identify the "class" of IP address for each major step in the trip**
 
 Amazon:
- 1. 10.0.0.1 
- 3. 100.92.123.66 
- 3-9. (ISP) comcast IP addresses **class A** 
- 10  66.208.216.222 **class A** 
- 11-13. request timed out  (* * *) 
- 14  15.230.247.1 class A 
- 15  * 15.230.247.1 (15.230.247.1)  14.351 ms * 
- 16-64. request timed out  (* * *) 
+1. **class A**, 10.0.0.1 (router)
+2. **class A**, 100.92.123.66
+3-9. **class A**, (ISP) comcast IP addresses
+10.  **class A**, 66.208.216.222
+
+11-13. request timed out  (* * *) 
+
+14-15. **class A**, 15.230.247.1
+
+16-64. request timed out  (* * *) 
 
 Google:
- 1. 10.0.0.1  class A, router 
- 3. 100.92.123.67 class A
- 3-7. (ISP) comcast IP addresses class A
- 8. 50.222.176.218 class A
- 9. 142.251.48.212 class B
-10. 172.217.14.196 class B, target Google IP address
+ 1. **class A**, 10.0.0.1 (router) 
+ 3. **class A**, 100.92.123.67
+ 3-7. **class A**, (ISP) comcast IP addresses
+ 8. **class A**, 50.222.176.218
+ 9. **class B**, 142.251.48.212
+10. **class B**, 172.217.14.196 (Google IP address)
 
 Microsoft:
-  1. 10.0.0.1 class A, router 
-  2  100.92.123.67 class A 
-  3-7. (ISP) comcast IP addresses class A 
-  8  23.45.229.117 class A, target micosoft IP Address
+  1. **class A**, 10.0.0.1 (router)
+  2. **class A**, 100.92.123.67
+  
+  3-7. **class A**, (ISP) comcast IP addresses
+  
+  8.  **class A**, 23.45.229.117 (micosoft IP Address)
