@@ -1,0 +1,177 @@
+Last login: Mon Apr  3 22:21:02 on ttys000
+audreydennis@Audreys-MacBook-Pro-9 ~ % traceroute www.amazon.com
+traceroute to d3ag4hukkh62yn.cloudfront.net (18.172.169.208), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  5.582 ms  4.080 ms  3.866 ms
+ 2  100.92.123.66 (100.92.123.66)  11.472 ms
+    100.92.123.67 (100.92.123.67)  14.423 ms
+    100.92.123.66 (100.92.123.66)  12.969 ms
+ 3  po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  9.840 ms
+    po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  11.085 ms
+    po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  13.738 ms
+ 4  69.139.160.198 (69.139.160.198)  11.702 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  13.000 ms
+    69.139.160.198 (69.139.160.198)  14.008 ms
+ 5  69.139.160.249 (69.139.160.249)  13.954 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  12.130 ms
+    69.139.160.249 (69.139.160.249)  12.142 ms
+ 6  69.139.160.249 (69.139.160.249)  13.752 ms
+    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  20.508 ms
+    69.139.160.249 (69.139.160.249)  15.141 ms
+ 7  * be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  115.171 ms
+    be-36111-cs01.seattle.wa.ibone.comcast.net (68.86.93.1)  14.008 ms
+ 8  be-36111-cs01.seattle.wa.ibone.comcast.net (68.86.93.1)  11.435 ms
+    be-2212-pe12.seattle.wa.ibone.comcast.net (96.110.34.134)  13.925 ms
+    be-36131-cs03.seattle.wa.ibone.comcast.net (68.86.93.9)  11.785 ms
+ 9  66.208.233.10 (66.208.233.10)  11.341 ms
+    be-2311-pe11.seattle.wa.ibone.comcast.net (96.110.32.234)  12.502 ms
+    66.208.233.10 (66.208.233.10)  13.028 ms
+10  66.208.216.222 (66.208.216.222)  12.738 ms *
+    75.149.228.150 (75.149.228.150)  14.704 ms
+11  * * *
+12  * * *
+13  * * *
+14  * 15.230.247.1 (15.230.247.1)  14.924 ms *
+15  * 15.230.247.1 (15.230.247.1)  14.351 ms *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+31  * * *
+32  * * *
+33  * * *
+34  * * *
+35  * * *
+36  * * *
+37  * * *
+38  * * *
+39  * * *
+40  * * *
+41  * * *
+42  * * *
+43  * * *
+44  * * *
+45  * * *
+46  * * *
+47  * * *
+48  * * *
+49  * * *
+50  * * *
+51  * * *
+52  * * *
+53  * * *
+54  * * *
+55  * * *
+56  * * *
+57  * * *
+58  * * *
+59  * * *
+60  * * *
+61  * * *
+62  * * *
+63  * * *
+64  * * *
+audreydennis@Audreys-MacBook-Pro-9 ~ % traceroute www.google.com
+traceroute to www.google.com (172.217.14.196), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  6.738 ms  3.945 ms  3.074 ms
+ 2  100.92.123.67 (100.92.123.67)  12.139 ms
+    100.92.123.66 (100.92.123.66)  13.019 ms
+    100.92.123.67 (100.92.123.67)  11.889 ms
+ 3  po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  12.706 ms
+    po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  16.549 ms
+    po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  11.049 ms
+ 4  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  13.435 ms
+    69.139.160.198 (69.139.160.198)  13.092 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  11.064 ms
+ 5  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  10.870 ms
+    69.139.160.249 (69.139.160.249)  18.399 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  11.220 ms
+ 6  be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  13.116 ms
+    69.139.160.249 (69.139.160.249)  32.252 ms
+    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  12.843 ms
+ 7  be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  12.290 ms
+    50.222.176.218 (50.222.176.218)  15.185 ms
+    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  15.284 ms
+ 8  * 50.222.176.218 (50.222.176.218)  26.378 ms *
+ 9  * 142.251.48.212 (142.251.48.212)  23.298 ms *
+10  209.85.254.237 (209.85.254.237)  24.785 ms
+    sea30s01-in-f4.1e100.net (172.217.14.196)  23.496 ms
+    209.85.254.171 (209.85.254.171)  17.291 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % traceroute www.microsoft.com
+traceroute to e13678.dscb.akamaiedge.net (23.45.229.117), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  7.784 ms  3.980 ms  4.989 ms
+ 2  100.92.123.67 (100.92.123.67)  13.579 ms
+    100.92.123.66 (100.92.123.66)  12.315 ms
+    100.92.123.67 (100.92.123.67)  12.056 ms
+ 3  po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  18.873 ms
+    po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  13.735 ms
+    po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  13.291 ms
+ 4  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  10.969 ms
+    69.139.160.198 (69.139.160.198)  18.352 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  12.536 ms
+ 5  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  13.372 ms
+    24.124.128.129 (24.124.128.129)  11.383 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  12.241 ms
+ 6  ae-220-ar01.burien.wa.seattle.comcast.net (69.139.160.217)  15.199 ms
+    24.124.128.129 (24.124.128.129)  13.286 ms
+    ae-220-ar01.burien.wa.seattle.comcast.net (69.139.160.217)  17.909 ms
+ 7  ae-220-ar01.burien.wa.seattle.comcast.net (69.139.160.217)  22.480 ms
+    be-501-arsc1.burien.wa.seattle.comcast.net (96.216.153.5)  14.396 ms
+    ae-220-ar01.burien.wa.seattle.comcast.net (69.139.160.217)  13.135 ms
+ 8  a23-45-229-117.deploy.static.akamaitechnologies.com (23.45.229.117)  14.457 ms
+    be-501-arsc1.burien.wa.seattle.comcast.net (96.216.153.5)  13.883 ms
+    a23-45-229-117.deploy.static.akamaitechnologies.com (23.45.229.117)  14.654 ms
+audreydennis@Audreys-MacBook-Pro-9 ~ % traceroute www.amazon.com
+traceroute to d3ag4hukkh62yn.cloudfront.net (18.65.233.187), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  4.605 ms  3.341 ms *
+ 2  100.92.123.66 (100.92.123.66)  12.288 ms
+    100.92.123.67 (100.92.123.67)  12.621 ms
+    100.92.123.66 (100.92.123.66)  14.268 ms
+ 3  po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  12.578 ms
+    po-323-405-rur301.seattle.wa.seattle.comcast.net (24.153.87.17)  13.723 ms
+    po-323-406-rur302.seattle.wa.seattle.comcast.net (24.153.87.25)  11.966 ms
+ 4  69.139.160.198 (69.139.160.198)  11.292 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  19.544 ms
+    69.139.160.198 (69.139.160.198)  13.120 ms
+ 5  69.139.160.249 (69.139.160.249)  13.870 ms
+    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  11.758 ms
+    69.139.160.249 (69.139.160.249)  15.274 ms
+ 6  69.139.160.249 (69.139.160.249)  11.261 ms
+    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  14.068 ms
+    69.139.160.249 (69.139.160.249)  20.418 ms
+ 7  * be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  12.992 ms
+    be-36131-cs03.seattle.wa.ibone.comcast.net (68.86.93.9)  12.402 ms
+ 8  be-36141-cs04.seattle.wa.ibone.comcast.net (68.86.93.13)  15.155 ms
+    be-2101-pe01.seattle.wa.ibone.comcast.net (96.110.39.202)  14.284 ms
+    be-36141-cs04.seattle.wa.ibone.comcast.net (68.86.93.13)  12.189 ms
+ 9  75.149.228.150 (75.149.228.150)  16.273 ms
+    be-2312-pe12.seattle.wa.ibone.comcast.net (96.110.34.138)  13.504 ms
+    66.208.233.10 (66.208.233.10)  25.494 ms
+10  66.208.229.158 (66.208.229.158)  16.335 ms *
+    75.149.228.150 (75.149.228.150)  28.660 ms
+11  * * *
+12  * * *
+13  * * *
+14  * 150.222.214.205 (150.222.214.205)  23.418 ms *
+15  * 150.222.214.204 (150.222.214.204)  12.978 ms *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+^C
+audreydennis@Audreys-MacBook-Pro-9 ~ % 
