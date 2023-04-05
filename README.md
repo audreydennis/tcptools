@@ -61,33 +61,27 @@ Microsoft:
 Comcast is my ISP. seattle.wa.seattle.comcast.net is identified in most hops.
 
 **Identify the "class" of IP address for each major step in the trip**
+
 Amazon:
-1. 10.0.0.1 class A, router
+1. 10.0.0.1 
 2. 100.92.123.66
-3. 24.153.87.25
-4. 
+3-9. (ISP) comcast IP addresses **class A**
+10  66.208.216.222 **class A**
+11-13. request timed out  (* * *)
+14  15.230.247.1 class A
+15  * 15.230.247.1 (15.230.247.1)  14.351 ms *
+16-64. request timed out  (* * *)
 
 Google:
- 1  10.0.0.1  class A, router
- 2  100.92.123.67 class A
- 3  24.153.87.17 class A, ISP
- 4  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  13.435 ms
-    69.139.160.198 (69.139.160.198)  13.092 ms
-    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  11.064 ms
- 5  po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  10.870 ms
-    69.139.160.249 (69.139.160.249)  18.399 ms
-    po-300-xar02.seattle.wa.seattle.comcast.net (69.139.164.81)  11.220 ms
- 6  be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  13.116 ms
-    69.139.160.249 (69.139.160.249)  32.252 ms
-    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  12.843 ms
- 7  be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  12.290 ms
-    50.222.176.218 (50.222.176.218)  15.185 ms
-    be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  15.284 ms
- 8  * 50.222.176.218 (50.222.176.218)  26.378 ms *
- 9  * 142.251.48.212 (142.251.48.212)  23.298 ms *
-10  209.85.254.237 (209.85.254.237)  24.785 ms
-    sea30s01-in-f4.1e100.net (172.217.14.196)  23.496 ms
-    209.85.254.171 (209.85.254.171)  17.291 ms
+ 1. 10.0.0.1  class A, router
+ 2. 100.92.123.67 class A
+ 3-7. (ISP) comcast IP addresses class A
+ 8. 50.222.176.218 class A
+ 9. 142.251.48.212 class B
+10. 172.217.14.196 class B, target Google IP address
 
 Microsoft:
-
+ 1. 10.0.0.1 class A, router
+ 2  100.92.123.67 class A
+ 3-7. (ISP) comcast IP addresses class A
+ 8  23.45.229.117 class A, target micosoft IP Address
