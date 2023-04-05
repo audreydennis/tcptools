@@ -64,24 +64,24 @@ Comcast is my ISP. seattle.wa.seattle.comcast.net is identified in most hops.
 
 Amazon:
  1. 10.0.0.1 
- 2. 100.92.123.66
- 3-9. (ISP) comcast IP addresses **class A**
- 10  66.208.216.222 **class A**
- 11-13. request timed out  (* * *)
- 14  15.230.247.1 class A
- 15  * 15.230.247.1 (15.230.247.1)  14.351 ms *
- 16-64. request timed out  (* * *)
+ 3. 100.92.123.66 
+ 3-9. (ISP) comcast IP addresses **class A** 
+ 10  66.208.216.222 **class A** 
+ 11-13. request timed out  (* * *) 
+ 14  15.230.247.1 class A 
+ 15  * 15.230.247.1 (15.230.247.1)  14.351 ms * 
+ 16-64. request timed out  (* * *) 
 
 Google:
- 1. 10.0.0.1  class A, router
- 2. 100.92.123.67 class A
+ 1. 10.0.0.1  class A, router 
+ 3. 100.92.123.67 class A
  3-7. (ISP) comcast IP addresses class A
  8. 50.222.176.218 class A
  9. 142.251.48.212 class B
 10. 172.217.14.196 class B, target Google IP address
 
 Microsoft:
-  1. 10.0.0.1 class A, router
-  2  100.92.123.67 class A
-  3-7. (ISP) comcast IP addresses class A
+  1. 10.0.0.1 class A, router 
+  2  100.92.123.67 class A 
+  3-7. (ISP) comcast IP addresses class A 
   8  23.45.229.117 class A, target micosoft IP Address
