@@ -90,3 +90,7 @@ Microsoft:
   3-7. **class A**, (ISP) comcast IP addresses
   
   8.  **class A**, 23.45.229.117 (micosoft IP Address)
+  
+  # Extra Credit
+  - "tracert" (2 pts) (dhcp_traffic.png)
+  - Insecure web server (2 pts) (insecure_web_server.png)
