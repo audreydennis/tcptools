@@ -94,3 +94,6 @@ Microsoft:
   # Extra Credit
   - "tracert" (2 pts) (dhcp_traffic.png)
   - Insecure web server (2 pts) (insecure_web_server.png)
+  - Spy on your opponents (2 pts) (roblox.png)
+ 
+ In the spy on your opponents extra credit I played roblox for ten minutes and tracked activity on wireshark, I sent several messages while playing the game. Roblox protocol is Raknet so it was straightforward to filter data on wireshark. I manually searched and used Wireshark search in packet details and bytes for my username "chattyoreo" (as seen in the screenshot and I was not able to find any packet containing my username, roblox seems to encrypt this data.
