@@ -1,6 +1,6 @@
 # Ping
 
-**What were the min/avg/max/stddev statistics for each?**
+**What were the min/avg/max/stddev statistics for each?  **
 
 Amazon statistics:
 1. min/avg/max/stddev = 12.248/16.487/20.249/2.991 ms
