@@ -2,7 +2,7 @@
 
 **What were the min/avg/max/stddev statistics for each?**
 
-Amazon:
+Amazon statistics:
 1. min/avg/max/stddev = 12.248/16.487/20.249/2.991 ms
 2. min/avg/max/stddev = 5.477/10.702/16.520/4.765 ms
 3. min/avg/max/stddev = 10.432/14.636/22.926/3.896 ms
